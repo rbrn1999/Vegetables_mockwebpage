@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+}
+
+body {
+  position: relative;
+  width: 1260px;
+  height: 880px;
+  background-color: #edf2c5;
+}
+
+.wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 43px;
+  margin: 53px 0 17px 0;
+}
+
+.logo_Vegetables {
+  width: 271px;
+  height: 42px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 0.82;
+  text-align: left;
+  color: #778a50;
+}
+
+.ic-box {
+  display: flex;
+}
+
+.ic-box_line {
+  width: 1px;
+  height: auto;
+  background-color: #778a50;
+  margin-right: 10px;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.btn_facebook {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.btn_instagram {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.btn_LOGIN {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 25px;
+  margin-right: 10px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+  cursor: pointer;
+}
+
+.btn_LOGIN_box {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #778a50;
+}
+
+.btn_JOIN_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  border-radius: 3px;
+  border: solid 1px #778a50;
+}
+
+.btn_JOIN {
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  color: #778a50;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+}
+
+.nav a {
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  margin: 0 30px;
+}
+
+.img_main_pumpkin {
+  margin: 20px 0 30px 0;
+  width: 940px;
+  height: 448px;
+}
+.column_container {
+  display: flex;
+  justify-content: space-between;
+}
+.sub_box {
+  margin: 0 0 15px;
+  display: flex;
+  align-items: center;
+  height: 45px;
+  width: 445px;
+  border-radius: 3px;
+  background-color: #778a50;
+}
+
+.subtitle {
+  margin: 30px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+.img_group {
+  display: flex;
+  justify-content: space-between;
+  height: 140px;
+  width: 444px;
+}
+
+.contact {
+  display: inline-block;
+  width: 445px;
+  height: 140px;
+  border-radius: 3px;
+  background-color: #f7fbda;
+}
+.contact_questions {
+  margin: 15px;
+  margin-top: 16px;
+  margin-right: 20px;
+  width: 410px;
+  height: 43px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+.contact_line {
+  margin: 16px 16px 16px;
+  display: flex;
+  justify-content: space-around;
+  width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+}
+.contact_phone_email {
+  margin: 15px;
+  width: 193px;
+  height: 31px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.83;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+}
+footer {
+  margin-top: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  background-color: #778a50;
+}
+.footer__copyright {
+  width: 302px;
+  height: 11px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
